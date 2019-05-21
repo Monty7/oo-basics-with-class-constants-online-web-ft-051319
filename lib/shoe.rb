@@ -10,7 +10,7 @@ class Shoe
     @brand = brand
     BRANDS << @brand
     BRANDS.each do |brand|
-      binding.pry
+    
       if @brand == brand
          
        end
