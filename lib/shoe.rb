@@ -8,7 +8,6 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    
     BRANDS.each do |b|
     
       if @brand == b
