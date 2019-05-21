@@ -9,7 +9,12 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << @brand
-
+    BRANDS.each do |brand|
+      binding.pry
+      if @brand == brand
+         
+       end
+    end
   end
 
   def cobble
